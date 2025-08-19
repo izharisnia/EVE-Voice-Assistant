@@ -43,6 +43,10 @@ EVE-Voice-Assistant/
 - **Database**: SQLite
 - **Speech**: SpeechRecognition, pyttsx3
 - **Automation**: PyAutoGUI, pywhatkit
+- 
+##  Live Demo
+https://github.com/user-attachments/assets/364ea2de-5bd3-4bd5-b97c-834bb2f5f59e
+
 
 ## Note
 This is a showcase repository. The actual implementation contains additional proprietary components and requires proper API key setup for full functionality.
