@@ -1,0 +1,98 @@
+# ============================================
+# CRITICAL FILES - ABSOLUTELY DO NOT UPLOAD
+# ============================================
+
+# API Keys & Configuration
+config/api_keys.py
+config/config.py
+backend/config.py
+*.env
+.env*
+secrets.py
+keys.json
+
+# Face Recognition Data & Models
+backend/auth/trainer/
+backend/auth/samples/
+backend/auth/haarcascade_frontalface_default.xml
+*.yml
+*.xml
+
+# Database Files
+EVE.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Contact Data
+contacts.csv
+*.contacts
+
+# ============================================
+# FUNCTIONAL COMPONENTS - HIDE CORE LOGIC
+# ============================================
+
+# Authentication System
+backend/auth/recoganize.py
+backend/auth/sample.py
+backend/auth/trainer.py
+
+# Core Features (Keep structure, remove functionality)
+backend/feature.py
+backend/command.py
+backend/chatbot.py
+
+# Database Management
+backend/db.py
+
+# Helper Functions
+backend/helper.py
+
+# Main Application Logic
+main.py
+run.py
+
+# ============================================
+# VIRTUAL ENVIRONMENT & DEPENDENCIES
+# ============================================
+envEVE/
+venv/
+env/
+ENV/
+.venv/
+*.venv
+
+# ============================================
+# SYSTEM & TEMPORARY FILES
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+temp/
+
+# ============================================
+# MEDIA & ASSETS
+# ============================================
+frontend/assets/audio/
+*.mp3
+*.wav
+*.m4a
+
+# ============================================
+# IDE & EDITOR
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================================
+# NODE MODULES (Frontend)
+# ============================================
+node_modules/
+npm-debug.log*
